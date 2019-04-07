@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* CSS Document created by Christy Chatmon, Spring 2019*/
+/* Joshua Story, Spring 2019*/
 
 body {
 	font-family: "Times New Roman", "Courier New", Verdana, "Trebuchet MS";
@@ -33,6 +33,7 @@ h2 {
 	border-style: double;
 	background-color: #1E392A;
 	color: #E9C893;
+	text-align: center;
 }
 h3 {
 	font-size: 17px;
@@ -43,6 +44,10 @@ h3 {
 	padding: 8px 8px 8px 8px;
 	font-variant: small-caps;
 	color: #E9C893;
+}
+
+q {
+	color: #1E392A;
 }
 
 /* link styles ---------------------------- */
@@ -64,7 +69,7 @@ a:hover {
 ul li {
 	list-style-type: circle;
 	margin-left: 10px;
-	
+
 }
 ol {
 	list-style-type: upper-roman;
@@ -103,3 +108,36 @@ iframe {
 	padding: 2px;
 	margin: 2px;
 }
+
+/* id selectors--------------------------------------*/
+ #header {
+	font-size: 24px;
+	padding: 4px 4px 4px 4px;
+	font-variant: small-caps;
+	letter-spacing: 0.2em;
+	border-style: double;
+	line-height: 2em;
+	background-color: #1E392A;
+	color: #E9C893;
+	text-align: center;
+}
+
+ #content {
+ 	font-family: "Times New Roman", "Courier New", Verdana, "Trebuchet MS";
+	font-size: 13px;
+	line-height: 1.6em;
+	color: #565656;
+	background-color: #E9C893;
+	padding: 0 40px;
+ }
+ 
+ #footer {
+	text-align: center;
+	background-color: #1E392A;
+ }
+ 
+ #special-text {
+ 	text-align: center;
+ 	color: #E9C893;
+ }
+ 

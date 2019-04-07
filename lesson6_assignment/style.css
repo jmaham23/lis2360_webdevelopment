@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* CSS Document created by Christy Chatmon, Spring 2019*/
+/* Joshua Story, 04/08/2019*/
 
 body {
 	font-family: "Times New Roman", "Courier New", Verdana, "Trebuchet MS";
@@ -8,6 +8,8 @@ body {
 	color: #565656;
 	background-color: #E9C893;
 	padding: 0 40px;
+	margin: 0;
+	padding: 0;
 }
 
 /* basic text styles ----------------------------  */
@@ -33,6 +35,7 @@ h2 {
 	border-style: double;
 	background-color: #1E392A;
 	color: #E9C893;
+	text-align: center;
 }
 h3 {
 	font-size: 17px;
@@ -45,30 +48,40 @@ h3 {
 	color: #E9C893;
 }
 
+q {
+	color: #1E392A;
+}
+
 /* link styles ---------------------------- */
 a:link {
 	font-weight: bold;
-	color: #3CC47C;
+	color: #107896;
 	text-decoration: underline;
 }
 a:visited {
-	font-weight: bold;
-	color: #3CC47C;
-	text-decoration: underline;
+	font-weight: lighter;
+	color: #107896;
+	text-decoration: line-through;
 }
 a:hover {
-	color: #E9C893;
+	color: #107896;
 }
 
 /* list styles ----------------------------- */
+ul {
+	padding-left: 0px;
+}
 ul li {
 	list-style-type: circle;
 	margin-left: 10px;
-	
+
 }
 ol {
 	list-style-type: upper-roman;
 	margin-left: 10px;
+}
+ol li {
+	padding-left: 0px;
 }
 
 /* table styles -------------------------------------- */
@@ -103,3 +116,55 @@ iframe {
 	padding: 2px;
 	margin: 2px;
 }
+
+/* id selectors--------------------------------------*/
+ #header {
+	font-size: 24px;
+	padding: 10px 10px 10px 10px;
+	font-variant: small-caps;
+	letter-spacing: 0.2em;
+	border-style: double;
+	line-height: 2em;
+	background-color: #1E392A;
+	color: #E9C893;
+	text-align: center;
+}
+
+ #content {
+ 	font-family: "Times New Roman", "Courier New", Verdana, "Trebuchet MS";
+	font-size: 13px;
+	line-height: 1.6em;
+	color: #565656;
+	background-color: #E9C893;
+	padding: 0 40px;
+	width: 600px;
+	float: left;
+ }
+ 
+ #footer {
+	text-align: center;
+	background-color: #1E392A;
+	padding: 40px 0px;
+	clear: both;
+	width: 900px;
+	text-align: center;
+ }
+ 
+ #special-text {
+ 	text-align: center;
+ 	color: #E9C893;
+ }
+ 
+ #container {
+ 	width: 900px;
+ 	margin: 0 auto;
+ 	padding: 40px;
+ 	background-color: #E9C893;
+ 	overflow: hidden;
+ }
+
+ #sidebar{
+ 	width: 220px;
+ 	float: left;
+ 	paddin: 10px;
+ }
