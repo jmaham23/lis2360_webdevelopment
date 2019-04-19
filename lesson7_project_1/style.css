@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* Joshua Story, 04/08/2019*/
+
+body {
+	font-family: "Times New Roman", "Courier New", Verdana, "Trebuchet MS";
+	font-size: 13px;
+	line-height: 1.6em;
+	color: #565656;
+	background-color: #E9C893;
+	padding: 0 40px;
+	margin: 0;
+	padding: 0;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #565656;
+}
+h1 {
+	font-size: 24px;
+	padding: 4px 4px 4px 4px;
+	font-variant: small-caps;
+	letter-spacing: 0.2em;
+	border-style: double;
+	line-height: 2em;
+	background-color: #1E392A;
+	color: #E9C893;
+}
+h2 {
+	font-size: 20px;
+	padding: 6px 6px 6px 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.2em;
+	border-style: double;
+	background-color: #1E392A;
+	color: #E9C893;
+	text-align: center;
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.2em;
+	border-bottom-width: 1px;
+	border-style: double;
+	background-color: #1E392A;
+	padding: 8px 8px 8px 8px;
+	font-variant: small-caps;
+	color: #E9C893;
+}
+
+q {
+	color: #1E392A;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #107896;
+	text-decoration: underline;
+}
+a:visited {
+	font-weight: lighter;
+	color: #107896;
+	text-decoration: line-through;
+}
+a:hover {
+	color: #107896;
+}
+
+/* list styles ----------------------------- */
+ul {
+	padding-left: 0px;
+}
+ul li {
+	list-style-type: circle;
+	margin-left: 10px;
+
+}
+ol {
+	list-style-type: upper-roman;
+	margin-left: 10px;
+}
+ol li {
+	padding-left: 0px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: ridge #828081 1px;
+	background-color: #1E392A;
+}
+td {
+	padding: 6px;
+	border: ridge #828081 1px;
+}
+th {
+	font-weight: bold;
+	text-align: center;
+	padding: 6px;
+	border: ridge #828081 1px;
+	color: #E9C893;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: double #1E392A 2px;
+}
+
+img {
+	border: ridge #1E392A 1px;
+
+}
+
+iframe {
+	border: ridge #1E392A 1px;
+	padding: 2px;
+	margin: 2px;
+}
+
+/* id selectors--------------------------------------*/
+ #header {
+	font-size: 24px;
+	padding: 10px 10px 10px 10px;
+	font-variant: small-caps;
+	letter-spacing: 0.2em;
+	border-style: double;
+	line-height: 2em;
+	background-color: #1E392A;
+	color: #E9C893;
+	text-align: center;
+}
+
+ #content {
+ 	font-family: "Times New Roman", "Courier New", Verdana, "Trebuchet MS";
+	font-size: 13px;
+	line-height: 1.6em;
+	color: #565656;
+	background-color: #E9C893;
+	padding: 0 40px;
+	width: 600px;
+	float: left;
+ }
+ 
+ #footer {
+	text-align: center;
+	background-color: #1E392A;
+	padding: 40px 0px;
+	clear: both;
+	width: 900px;
+	text-align: center;
+ }
+ 
+ #special-text {
+ 	text-align: center;
+ 	color: #E9C893;
+ }
+ 
+ #container {
+ 	width: 900px;
+ 	margin: 0 auto;
+ 	padding: 40px;
+ 	background-color: #E9C893;
+ 	overflow: hidden;
+ }
+
+ #sidebar{
+ 	width: 220px;
+ 	float: left;
+ 	paddin: 10px;
+ }
