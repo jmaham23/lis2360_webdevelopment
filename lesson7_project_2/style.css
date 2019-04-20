@@ -76,8 +76,9 @@ a:hover {
 }
 
 #media {
-	padding: 40px 0 60px 0;	
    background: url(images/binaryre.jpg) no-repeat center top fixed;
+   margin: 0 auto;
+   width: 750;
 }
 
 #author {
